@@ -5,3 +5,8 @@ Best Score: 63
 The file reaction_speed.py is a Python script that uses the pyautogui library to automate a reaction speed test on the website humanbenchmark.com. The script takes a screenshot of a single pixel at the coordinates (249, 301) and checks the color of that pixel. If the color is (75, 219, 106), which corresponds to the green color of the "Click!" button on the website, the script clicks on the button by adding 10 pixels to the x and y coordinates of the pixel and using the pyautogui.click() function.
 The script runs in an infinite loop until the user interrupts it by pressing Ctrl+C. When the user interrupts the script, the message "Program terminated by user." is printed to the console.
 
+Language: java
+Score: 32 
+Best Score: 27
+
+This file is a Java program that captures the color of a single pixel on the screen and checks if it matches a specific RGB color. If the color matches, the program simulates a mouse click. The program uses the Robot class from the AWT package to capture the screen and perform mouse clicks.
